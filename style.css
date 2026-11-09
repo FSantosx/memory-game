@@ -10,13 +10,18 @@ body {
   background: #060ab2;
 }
 
-#counter {
-  display: flex;
-  flex-flow: row;
+#hud {
   width: 100%;
-  text-align: center;
-  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
   color: aliceblue;
+}
+
+#reset {
+  padding: 4px 12px;
+  cursor: pointer;
 }
 
 .memory-game {
@@ -56,6 +61,7 @@ body {
   position: absolute;
   border-radius: 5px;
   background: #1c7ccc;
+  object-fit: cover;
   backface-visibility: hidden;
 }
 
